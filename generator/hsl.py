@@ -5,7 +5,7 @@ import math
 
 def get_proof(req):
     x = "0123456789/:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    req = parse_jsw(req)
+    req = parse_jsw(req) ## Will Update
 
     def a(r):
         for t in range(len(r) - 1, -1, -1):
